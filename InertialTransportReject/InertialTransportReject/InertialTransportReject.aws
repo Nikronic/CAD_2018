@@ -1,0 +1,12 @@
+[Version]
+Version=8.3
+[Designs]
+inertialtransportrejectdesign=.\InertialTransportRejectDesign\InertialTransportRejectDesign.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+inertialtransportrejectdesign=1

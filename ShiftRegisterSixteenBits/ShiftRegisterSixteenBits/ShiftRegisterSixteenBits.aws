@@ -1,0 +1,12 @@
+[Version]
+Version=8.3
+[Designs]
+shiftregistersixteenbitsdesign=.\ShiftRegisterSixteenBitsDesign\ShiftRegisterSixteenBitsDesign.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+shiftregistersixteenbitsdesign=1

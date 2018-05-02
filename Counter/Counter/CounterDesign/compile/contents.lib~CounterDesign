@@ -1,0 +1,6 @@
+140
+~E 1 "./src/TestBench/countereightbit_TB.vhd" 7 countereightbit_tb
+~A 1 "./src/TestBench/countereightbit_TB.vhd" 10 tb_architecture
+~E 1 "./src/counterEightBit.vhd" 30 countereightbit
+~A 1 "./src/counterEightBit.vhd" 39 ceb
+~C 1 "./src/TestBench/countereightbit_TB.vhd" 57 testbench_for_countereightbit

@@ -1,0 +1,4 @@
+i<>.\src\alu.vhd
+i<>.\src\registerSixteenBit.vhd
+i<>.\src\TestBench\alu_TB.vhd
+i<>.\src\TestBench\registersixteenbit_TB.vhd

@@ -1,0 +1,6 @@
+31
+~E 1 "./src/TestBench/priorityencoder_TB.vhd" 6 priorityencoder_tb
+~A 1 "./src/TestBench/priorityencoder_TB.vhd" 9 tb_architecture
+~E 1 "./src/priorityEncoder.vhd" 28 priorityencoder
+~A 1 "./src/priorityEncoder.vhd" 35 pe
+~C 1 "./src/TestBench/priorityencoder_TB.vhd" 61 testbench_for_priorityencoder

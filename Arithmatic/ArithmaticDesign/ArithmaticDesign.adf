@@ -1,0 +1,60 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=ArithmaticDesign
+
+[Library]
+ArithmaticDesign=.\ArithmaticDesign.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+ArithmaticDesign=.
+Active_lib=
+
+[Groups]
+TestBench=1
+
+[Files]
+/Arithmatic.vhd=-1
+/waveform.asdb=-1
+/waveform.awc=-1
+TestBench/arithmatic_TB.vhd=-1
+TestBench/arithmatic_TB_runtest.do=-1
+
+[Files.Data]
+.\src\Arithmatic.vhd=VHDL Source Code
+.\src\waveform.asdb=Accelerated Waveform File
+.\src\waveform.awc=Accelerated Waveform Configuration
+.\src\TestBench\arithmatic_TB.vhd=VHDL Test Bench
+.\src\TestBench\arithmatic_TB_runtest.do=Macro
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=arithmatic|a|0 arithmatic_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=

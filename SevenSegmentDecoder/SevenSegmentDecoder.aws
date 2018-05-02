@@ -1,0 +1,12 @@
+[Version]
+Version=8.3
+[Designs]
+sevensegmentdecoderdesign=.\SevenSegmentDecoderDesign\SevenSegmentDecoderDesign.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+sevensegmentdecoderdesign=1

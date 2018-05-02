@@ -1,0 +1,6 @@
+196
+~E 1 "./src/TestBench/shiftregistersixteenbits_TB.vhd" 8 shiftregistersixteenbits_tb
+~A 1 "./src/TestBench/shiftregistersixteenbits_TB.vhd" 11 tb_architecture
+~E 1 "./src/ShiftRegisterSixteenBits.vhd" 30 shiftregistersixteenbits
+~A 1 "./src/ShiftRegisterSixteenBits.vhd" 43 srsb
+~C 1 "./src/TestBench/shiftregistersixteenbits_TB.vhd" 104 testbench_for_shiftregistersixteenbits

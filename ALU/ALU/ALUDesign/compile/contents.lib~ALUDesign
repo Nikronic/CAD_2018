@@ -1,0 +1,11 @@
+836
+~E 1 "./src/TestBench/registersixteenbit_TB.vhd" 7 registersixteenbit_tb
+~A 1 "./src/TestBench/registersixteenbit_TB.vhd" 10 tb_architecture
+~E 1 "./src/TestBench/alu_TB.vhd" 8 alu_tb
+~A 1 "./src/TestBench/alu_TB.vhd" 11 tb_architecture
+~E 1 "./src/alu.vhd" 30 alu
+~A 1 "./src/alu.vhd" 42 a
+~E 1 "./src/registerSixteenBit.vhd" 29 registersixteenbit
+~A 1 "./src/registerSixteenBit.vhd" 40 rsb
+~C 1 "./src/TestBench/alu_TB.vhd" 93 testbench_for_alu
+~C 1 "./src/TestBench/registersixteenbit_TB.vhd" 72 testbench_for_registersixteenbit

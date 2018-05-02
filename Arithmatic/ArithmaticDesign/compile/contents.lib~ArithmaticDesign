@@ -1,0 +1,6 @@
+96
+~E 1 "./src/TestBench/arithmatic_TB.vhd" 8 arithmatic_tb
+~A 1 "./src/TestBench/arithmatic_TB.vhd" 11 tb_architecture
+~E 1 "./src/Arithmatic.vhd" 30 arithmatic
+~A 1 "./src/Arithmatic.vhd" 40 a
+~C 1 "./src/TestBench/arithmatic_TB.vhd" 66 testbench_for_arithmatic

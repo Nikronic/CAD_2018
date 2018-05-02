@@ -1,0 +1,12 @@
+[Version]
+Version=8.3
+[Designs]
+aludesign=.\ALUDesign\ALUDesign.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+aludesign=1

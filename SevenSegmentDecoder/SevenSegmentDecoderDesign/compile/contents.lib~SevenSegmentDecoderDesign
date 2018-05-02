@@ -1,0 +1,6 @@
+28
+~E 1 "./src/TestBench/sevensegmentdecoder_TB.vhd" 7 sevensegmentdecoder_tb
+~A 1 "./src/TestBench/sevensegmentdecoder_TB.vhd" 10 tb_architecture
+~E 1 "./src/SevenSegmentDecoder.vhd" 29 sevensegmentdecoder
+~A 1 "./src/SevenSegmentDecoder.vhd" 38 ssd
+~C 1 "./src/TestBench/sevensegmentdecoder_TB.vhd" 47 testbench_for_sevensegmentdecoder

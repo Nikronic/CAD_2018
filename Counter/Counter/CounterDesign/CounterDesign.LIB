@@ -1,0 +1,45 @@
+timestamp=1524837503682
+
+[countereightbit]
+A/ceb=21|./src/counterEightBit.vhd|39|1*37516
+B/ceb=3*9218
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/ceb=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*5755
+I/ceb=0*12100
+M=11|0|v80|1524835922201|./src/counterEightBit.vhd|0*5361*0x89c1d488873646dfae76885c62a3a5812dc7695b|0*5664*0xab32bc1a2daf049573e14469f634e0e6
+M/ceb=21|0|v80|1524837503429|./src/counterEightBit.vhd|0*11482*0x68b76597d4d3b416ac63577d8ca3b7db128d690c|0*12002*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/counterEightBit.vhd|30
+
+[countereightbit_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/countereightbit_TB.vhd|10|1*39389
+B/tb_architecture=3*10100
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*7904
+I/tb_architecture=I/TB_ARCHITECTURE 0*13094
+M=11|0|v80|1524836298039|./src/TestBench/countereightbit_TB.vhd|0*7561*0xbb4458cb151cc848371d828bba1752f85b370bd9|0*7797*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1524837503580|./src/TestBench/countereightbit_TB.vhd|0*12280*0xae9c3f3e3ab5c4d6e85825993d0dead4095239eb|0*12968*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/countereightbit_TB.vhd|7
+
+[testbench_for_countereightbit]
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+E=1*41654
+I=0*9624
+M=2|0|v80|1524837503583|./src/TestBench/countereightbit_TB.vhd|0*9152*0xd74098cd455d693740789eb3e0658f3b8f47dc7e|0*9485*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/countereightbit_TB.vhd|57
+
+[~A]
+ModifyID=140
+Version=73
+
+[~MFT]
+0=102|0CounterDesign.mgf|13094|9363
+1=50|1CounterDesign.mgf|41654|37516
+3=27|3CounterDesign.mgf|10100|9218
+
+[~U]
+countereightbit=counterEightBit 11|0*5158|
+countereightbit_tb=11|0*7461|
+testbench_for_countereightbit=TESTBENCH_FOR_countereightbit 2||
+

@@ -1,0 +1,1 @@
+-w -s "f:\Data\ActiveHDL\Arithmatic\library.cfg"  -j "f:\Data\ActiveHDL\Arithmatic\ArithmaticDesign\projlib.cfg"  -d "f:\Data\ActiveHDL\Arithmatic\ArithmaticDesign\compile"   -work ArithmaticDesign  -O3 -e 100 -2002 "f:\Data\ActiveHDL\Arithmatic\ArithmaticDesign\src\Arithmatic.vhd"  "f:\Data\ActiveHDL\Arithmatic\ArithmaticDesign\src\TestBench\arithmatic_TB.vhd" 

@@ -1,0 +1,51 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=CounterDesign
+
+[Library]
+CounterDesign=.\CounterDesign.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+CounterDesign=.
+Active_lib=
+
+[Groups]
+TestBench=1
+
+[Files]
+/counterEightBit.vhd=-1
+TestBench/countereightbit_TB.vhd=-1
+TestBench/countereightbit_TB_runtest.do=-1
+
+[Files.Data]
+.\src\counterEightBit.vhd=VHDL Source Code
+.\src\TestBench\countereightbit_TB.vhd=VHDL Test Bench
+.\src\TestBench\countereightbit_TB_runtest.do=Macro
+
