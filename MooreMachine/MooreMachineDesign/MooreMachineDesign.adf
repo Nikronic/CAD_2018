@@ -1,0 +1,60 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=MooreMachineDesign
+
+[Library]
+MooreMachineDesign=.\MooreMachineDesign.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+MooreMachineDesign=.
+Active_lib=
+
+[Groups]
+TestBench=1
+
+[Files]
+/fsm1101110.vhd=-1
+/wavelet.asdb=-1
+/wavelet.awc=-1
+TestBench/fsm1101110_TB.vhd=-1
+TestBench/fsm1101110_TB_runtest.do=-1
+
+[Files.Data]
+.\src\fsm1101110.vhd=VHDL Source Code
+.\src\wavelet.asdb=Accelerated Waveform File
+.\src\wavelet.awc=Accelerated Waveform Configuration
+.\src\TestBench\fsm1101110_TB.vhd=VHDL Test Bench
+.\src\TestBench\fsm1101110_TB_runtest.do=Macro
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=fsm1101110_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
