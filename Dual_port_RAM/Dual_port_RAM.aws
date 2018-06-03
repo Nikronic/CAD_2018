@@ -1,0 +1,12 @@
+[Version]
+Version=8.3
+[Designs]
+dual_port_ram_design=.\Dual_port_RAM_design\Dual_port_RAM_design.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+dual_port_ram_design=1

@@ -1,0 +1,69 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=DMA_design
+
+[Library]
+DMA_design=.\DMA_design.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopeninsrc=1
+fileopenfolder=F:\Data\ActiveHDL\DMA\DMA_design\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+DMA_design=.
+Active_lib=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=dma_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/dma.vhd=-1
+/dual_port_memory.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+/wavelet.asdb=-1
+/wavelet.awc=-1
+TestBench/dma_TB.vhd=-1
+TestBench/dma_TB_runtest.do=-1
+
+[Files.Data]
+.\src\dma.vhd=VHDL Source Code
+.\src\dual_port_memory.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\wavelet.asdb=Accelerated Waveform File
+.\src\wavelet.awc=Accelerated Waveform Configuration
+.\src\TestBench\dma_TB.vhd=VHDL Test Bench
+.\src\TestBench\dma_TB_runtest.do=Macro
+

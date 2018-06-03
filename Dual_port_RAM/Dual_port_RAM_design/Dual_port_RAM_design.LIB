@@ -1,0 +1,45 @@
+timestamp=1527333517109
+
+[dual_port_memory]
+A/dpm=21|./src/dual_port_memory.vhd|41|1*130430
+B/dpm=3*31222
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/dpm=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*1045
+I/dpm=0*30454
+M=11|0|v80|1527273892555|./src/dual_port_memory.vhd|0*488*0x07d70f4d4a4270013e26d235eb735f05b3e8bf99|0*952*0xab32bc1a2daf049573e14469f634e0e6
+M/dpm=21|0|v80|1527333516786|./src/dual_port_memory.vhd|0*29371*0xe4b1fa35995e2d0635eed6142a78e3f7c6478692|0*30354*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/dual_port_memory.vhd|30
+
+[dual_port_memory_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/dual_port_memory_TB.vhd|16|1*133903
+B/tb_architecture=3*32694
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*7818
+I/tb_architecture=I/TB_ARCHITECTURE 0*35578
+M=11|0|v80|1527274182377|./src/TestBench/dual_port_memory_TB.vhd|0*7347*0x74e22473ba639e1fc32cc02be4d3954b6350a92a|0*7709*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1527333516964|./src/TestBench/dual_port_memory_TB.vhd|0*33752*0x09513feacd5fc104d90410755c5b06c02aa4e181|0*35450*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/dual_port_memory_TB.vhd|9
+
+[testbench_for_dual_port_memory]
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+E=1*139590
+I=0*33370
+M=2|0|v80|1527333516970|./src/TestBench/dual_port_memory_TB.vhd|0*32887*0x1f3846ad9287c3dbb35209e003d9284ad1e75e7e|0*33228*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/dual_port_memory_TB.vhd|153
+
+[~A]
+ModifyID=214
+Version=73
+
+[~MFT]
+0=146|0Dual_port_RAM_design.mgf|35578|29316
+1=98|1Dual_port_RAM_design.mgf|139590|130430
+3=53|3Dual_port_RAM_design.mgf|32694|31222
+
+[~U]
+dual_port_memory=11|0*0|
+dual_port_memory_tb=11|0*7167|
+testbench_for_dual_port_memory=TESTBENCH_FOR_dual_port_memory 2||
+

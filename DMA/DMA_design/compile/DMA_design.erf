@@ -1,0 +1,13 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: f:\Data\ActiveHDL\DMA\DMA_design\src\dma.vhd" 
+MESSAGE "Compile Entity "dma"" 
+MESSAGE "Compile Architecture "a" of Entity "dma"" 
+MESSAGE "File: f:\Data\ActiveHDL\DMA\DMA_design\src\dual_port_memory.vhd" 
+MESSAGE "Compile Entity "dual_port_memory"" 
+MESSAGE "Compile Architecture "dpm" of Entity "dual_port_memory"" 
+WARNING COMP96_0564: "Shared variable is not of a protected type. (IEEE Std 1076-2002, 4.3.1.3)" "f:\Data\ActiveHDL\DMA\DMA_design\src\dual_port_memory.vhd" 44 9
+MESSAGE "File: f:\Data\ActiveHDL\DMA\DMA_design\src\TestBench\dma_TB.vhd" 
+MESSAGE "Compile Entity "dma_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "dma_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_dma"" 
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time :  0.3 [s]" 

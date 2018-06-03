@@ -1,0 +1,69 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=Dual_port_RAM_design
+
+[Library]
+Dual_port_RAM_design=.\Dual_port_RAM_design.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Dual_port_RAM_design=.
+Active_lib=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=dual_port_memory_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/dual_port_memory.vhd=-1
+/wavelet.asdb=-1
+/wavelet.awc=-1
+/wavelet2.asdb=-1
+/wavelet2.awc=-1
+/data2 and data1 read write.asdb=-1
+/data2 and data1 read write.awc=-1
+TestBench/dual_port_memory_TB.vhd=-1
+TestBench/dual_port_memory_TB_runtest.do=-1
+
+[Files.Data]
+.\src\dual_port_memory.vhd=VHDL Source Code
+.\src\wavelet.asdb=Accelerated Waveform File
+.\src\wavelet.awc=Accelerated Waveform Configuration
+.\src\wavelet2.asdb=Accelerated Waveform File
+.\src\wavelet2.awc=Accelerated Waveform Configuration
+.\src\data2 and data1 read write.asdb=Accelerated Waveform File
+.\src\data2 and data1 read write.awc=Accelerated Waveform Configuration
+.\src\TestBench\dual_port_memory_TB.vhd=VHDL Test Bench
+.\src\TestBench\dual_port_memory_TB_runtest.do=Macro
+

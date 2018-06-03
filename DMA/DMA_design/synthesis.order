@@ -1,0 +1,3 @@
+i<>.\src\dma.vhd
+i<>.\src\dual_port_memory.vhd
+i<>.\src\TestBench\dma_TB.vhd

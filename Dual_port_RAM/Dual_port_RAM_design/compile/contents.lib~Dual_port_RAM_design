@@ -1,0 +1,6 @@
+214
+~E 1 "./src/TestBench/dual_port_memory_TB.vhd" 9 dual_port_memory_tb
+~A 1 "./src/TestBench/dual_port_memory_TB.vhd" 16 tb_architecture
+~E 1 "./src/dual_port_memory.vhd" 30 dual_port_memory
+~A 1 "./src/dual_port_memory.vhd" 41 dpm
+~C 1 "./src/TestBench/dual_port_memory_TB.vhd" 153 testbench_for_dual_port_memory

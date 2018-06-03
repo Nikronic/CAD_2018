@@ -1,0 +1,8 @@
+949
+~E 1 "./src/TestBench/dma_TB.vhd" 8 dma_tb
+~A 1 "./src/TestBench/dma_TB.vhd" 15 tb_architecture
+~E 1 "./src/dma.vhd" 31 dma
+~A 1 "./src/dma.vhd" 45 a
+~E 1 "./src/dual_port_memory.vhd" 30 dual_port_memory
+~A 1 "./src/dual_port_memory.vhd" 41 dpm
+~C 1 "./src/TestBench/dma_TB.vhd" 78 testbench_for_dma

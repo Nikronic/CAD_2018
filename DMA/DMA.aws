@@ -1,0 +1,12 @@
+[Version]
+Version=8.3
+[Designs]
+dma_design=.\DMA_design\DMA_design.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+dma_design=1
